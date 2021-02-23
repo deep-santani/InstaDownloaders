@@ -111,7 +111,7 @@ app.post('/image',async (req,res)=>{
 
 
 
-PORT = process.env.PORT || 8000
+PORT = process.env.PORT || 3000
 
 app.listen(PORT,()=>{
 	console.log(`Server is Run at ${PORT}`)
